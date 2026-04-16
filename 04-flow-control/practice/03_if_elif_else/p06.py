@@ -38,12 +38,12 @@ elif day == 7:
     nichi = "일요일"
 
 else:
-    nichi = "잘못된 입력입니다."
+    nichi = ""
 
-if 1 <= day <= 7:
+if nichi != "":
     print(f"{day} -> {nichi}")
 else:
-    print(nichi)
+    print("잘못된 입력입니다.")
 
 """
 [실행 결과 예시] (입력: 3)
