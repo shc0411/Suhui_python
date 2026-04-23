@@ -14,3 +14,4 @@ for n in nums:
 colors = ("R", "G", "B")
 for c in colors:
     print(c)
+
