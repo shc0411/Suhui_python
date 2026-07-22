@@ -1,32 +1,32 @@
-# def check_score(score):
-#     if score < 0:
-#         print("잘못된 점수입니다.")
-#         return
+def check_score(score):
+    if score < 0:
+        print("잘못된 점수입니다.")
+        return
     
-#     print("점수 확인 완료")
-#     return score
+    print("점수 확인 완료")
+    return score
 
-# check_score(-10)
-
-
-
-# def test():
-#     print("시작")
-#     return
-#     print("이 문장은 실행되지 않음")
-
-# test()
+check_score(-10)
 
 
 
-# def min_max(numbers):
-#     return min(numbers), max(numbers)
+def test():
+    print("시작")
+    return
+    print("이 문장은 실행되지 않음")
 
-# result = min_max([3, 1 ,9, 5])
-# print(result)
+test()
 
-# low, high = min_max([3, 1, 9, 5])
-# print(low, high)
+
+
+def min_max(numbers):
+    return min(numbers), max(numbers)
+
+result = min_max([3, 1 ,9, 5])
+print(result)
+
+low, high = min_max([3, 1, 9, 5])
+print(low, high)
 
 
 
